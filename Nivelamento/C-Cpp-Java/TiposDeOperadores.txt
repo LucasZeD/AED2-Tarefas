@@ -1,0 +1,27 @@
+Operadores aritmeticos e relacionais
+	Estes opeadores sao compartilhados entre C, C++, Cs, Java
+
+-------------------------------------------------------------------------
+|		| OPERADOR	| SIGNIFICADO				|
+|---------------|---------------|---------------------------------------|
+|ARITMETICOS	|  +		| Adicao				|
+|		|  -		| Subtracao				|
+|		|  *		| Multiplicacao				|
+|		|  /		| Divisao				|
+|		|  %		| Resto/Modulo				|
+|		| ++		| Incremento				|
+|		| --		| Decremento				|
+|---------------|---------------|---------------------------------------|
+|ATRIBUICAO	| +=		| Atribuicao composta/adicao		| x += y  ->  x = x + y
+|COMPOSTA	| -=		| Atribuicao composta/subtracao		| x -= y  ->  x = x - y
+|		| *=		| Atribuicao composta/multiplicacao	| x *= y  ->  x = x * y
+|		| /=		| Atribuicao composta/divisao		| x /= y  ->  x = x / y
+|		| %=		| Atribuicao composta/modulo		| x %= y  ->  x = x % y
+|---------------|---------------|---------------------------------------|
+|RELACIONAIS	| ==		| igualdade				|
+|		| !=		| desigualdade				|
+|		|  <		| menor que				|
+|		|  >		| maior que				|
+|		| <=		| menor ou igual			|
+|		| >=		| maior ou igual			|
+-------------------------------------------------------------------------

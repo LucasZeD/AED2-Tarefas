@@ -1,0 +1,18 @@
+Comandos de Repeticao
+	Estes comandos sao compartilhados entre C, C++, Cs, Java
+
+
+
+	while (condicao)
+		<bloco de comandos>
+	
+	
+
+	do {
+		<bloco de comandos>
+	} while (condicao);
+	
+	
+
+	for (inicializacao; condicao; atualizacao)
+		<bloco de comandos>

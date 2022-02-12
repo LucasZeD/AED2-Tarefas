@@ -1,0 +1,20 @@
+Comando If e Else
+	Estes comandos sao compartilhados entre C, C++, Cs, Java
+
+	if (condicao)
+		<bloco de comandos>
+
+
+	if (condicao)
+		<bloco de comandos>
+	else
+		<bloco de comandos>
+	
+	
+	// c only ?
+	if (condicao)
+		<bloco de comandos>
+	elseif (condicao)
+		<bloco de comandos>
+	else
+		<bloco de comandos>

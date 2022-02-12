@@ -1,0 +1,30 @@
+Data Types C
+	char	Caractere
+	int	Inteiro
+	float	Ponto Flutuante
+	double	Ponto Flutuante
+	char[]	Cadeia de Caracteres
+	//nao ha bool nativo
+
+Data Types C++
+	char	Caractere
+	int	Inteiro
+	float	Ponto Flutuante
+	double	Ponto Flutuante
+	bool	Booleano
+	char[]	Cadeia de Caracteres
+
+Data Types C#
+	sbyte,short,int,long	Inteiro com sinal
+	byte,ushort,uint,ulong	Inteiro sem sinal
+	char			Caractere
+	float,double,decimal	Ponto Flutuante
+	bool			Booleano
+	String			Cadeia de Caracteres
+
+Data Types Java
+	byte,short,int,long	Inteiro
+	float,double		Ponto Flutuante
+	char			Caractere
+	boolean			Booleano
+	class String		Cadeia de Caracteres
