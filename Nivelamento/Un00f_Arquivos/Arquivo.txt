@@ -1,0 +1,47 @@
+Classe Arq
+	trabalha com arquivos em modo texto
+	acesso sequencial
+	utiliza classe formatter e scanner para escrita e leitura de arquivo de
+	
+Classe RandomAccessFile trabalha com arquivos em modo binario
+	acesso aleatório
+	Permite acesso aleatório de leitura e escrita de arquivos
+	manipula arquivos em modo binário
+	considera que cada arquivo e um array de bytes indexado por um ponteiro
+
+Texto
+	os arquivos podem ser lidos por editor de texto e vice-versa
+	
+Metodos Arq
+	boolean openWrite(String nomeArq)
+	boolean openWrite(String nomeArq, String charset)
+	boolean openRead (String nomeArq)
+	boolean openRead (String nomeArq, String charset)
+	void close()
+	
+	void print(int x)
+	void print(double x)
+	void print(String x)
+	void print(boolean x)
+	void print(char x)
+	
+Alternativas para -> Arq.openRead("exemplo.txt")
+	Arq.openRead("C:\\entrada01.txt")
+	Arq.openRead("\home\maxm\entrada01.txt")
+	Arq.openRead(MyIO.readString("Digite o nome do arquivo: "))
+	
+Alternativas para
+	String str = "";
+	while (Arq.hasNext() == true){
+		str += Arq.readChar();
+	String str = "";
+	while (Arq.hasNext() == true){
+		str += Arq.readString(); }
+	String str = "";
+	while (Arq.hasNext() = true){
+		str += Arq.readLine(); }
+	String str = Arq.readAll();
+
+
+
+

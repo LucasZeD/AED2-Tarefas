@@ -1,0 +1,10 @@
+int m1(int i){
+	return i--;
+}
+int m2(int i){
+	return --i;
+}
+
+Se i=2,	m1 retornará o valor 2 e após isso decrementará em 1.
+	m2 retornará o valor 1, pois drecementou entes de retorna-lo.
+------------------------------------------------------------------------------------

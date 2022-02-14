@@ -1,0 +1,38 @@
+EX 1
+Memória                    Tela
+Y: 7Eh 75h                 y[0]: 0
+       76h                 y[1]: 5
+0      77h                 y[2]: 10
+1      78h                 y[3]: 15
+2      79h                 y[4]: 20
+3      7Ah
+4      7Bh
+       7Ch
+       7Dh
+0      7Eh
+5      7Fh
+10     80h
+15     81h
+20     82h
+b: 77h 83h
+
+EX 2
+ADDRS:
+c1(null)
+c2(null)
+c3(null)
+ADDRS:
+c1(7Ah)
+c2(7Ah)
+c3(A5h)
+ATRIBUTOS:
+c1(3/aa)
+c2(3/aa)
+c3(2/bb)
+
+EX 3
+с1     33h
+c2     33h
+c3     51h
+1 / aa 33h
+2 / bb 51h

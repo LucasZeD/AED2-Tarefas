@@ -1,0 +1,28 @@
+As classes de leitura 	Scanner		tem restricoes para o processo de exercicios AEDsII
+			BufferedReader
+
+	Scanner		- intercala tipos distintos, dificultando o redirecionamento de entrada/saida
+	BufferedReader	- gera excecoes, exigindo o uso do try/catch
+
+Por questao de simplificacao use a classe MyIO
+
+E desaconselhado fortemento a Scanner
+
+O mercado quase sempre usa classes prontas!
+
+
+Metodos MyIO -> public e static
+
+	void print(int x)		double readDouble() e double readDouble(String str)
+	void print(double x)		float readFloat() e float readFloat(String str)
+	void print(String x)		int readInt() e int readInt(String str)
+	void print(boolean x)		String readString() e String readString(String str)
+	void println()			String readLine() e String readLine(String str)
+	void println(int x)		char readChar() e char readChar(String str)
+	void println(double x)		boolean readBoolean() e boolean readBoolean(String str)
+	void println(String x)
+	void println(boolean x)
+	void printf(String formato, double x)
+	void pause()
+
+
