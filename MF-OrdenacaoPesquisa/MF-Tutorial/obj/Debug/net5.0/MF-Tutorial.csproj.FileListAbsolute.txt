@@ -1,0 +1,16 @@
+/home/lucasduarte/PUC-AED2/3Periodo/AED2-Tarefas/MF-OrdenacaoPesquisa/MF-Tutorial/bin/Debug/net5.0/MF-Tutorial
+/home/lucasduarte/PUC-AED2/3Periodo/AED2-Tarefas/MF-OrdenacaoPesquisa/MF-Tutorial/bin/Debug/net5.0/MF-Tutorial.deps.json
+/home/lucasduarte/PUC-AED2/3Periodo/AED2-Tarefas/MF-OrdenacaoPesquisa/MF-Tutorial/bin/Debug/net5.0/MF-Tutorial.runtimeconfig.json
+/home/lucasduarte/PUC-AED2/3Periodo/AED2-Tarefas/MF-OrdenacaoPesquisa/MF-Tutorial/bin/Debug/net5.0/MF-Tutorial.runtimeconfig.dev.json
+/home/lucasduarte/PUC-AED2/3Periodo/AED2-Tarefas/MF-OrdenacaoPesquisa/MF-Tutorial/bin/Debug/net5.0/MF-Tutorial.dll
+/home/lucasduarte/PUC-AED2/3Periodo/AED2-Tarefas/MF-OrdenacaoPesquisa/MF-Tutorial/bin/Debug/net5.0/ref/MF-Tutorial.dll
+/home/lucasduarte/PUC-AED2/3Periodo/AED2-Tarefas/MF-OrdenacaoPesquisa/MF-Tutorial/bin/Debug/net5.0/MF-Tutorial.pdb
+/home/lucasduarte/PUC-AED2/3Periodo/AED2-Tarefas/MF-OrdenacaoPesquisa/MF-Tutorial/obj/Debug/net5.0/MF-Tutorial.csproj.AssemblyReference.cache
+/home/lucasduarte/PUC-AED2/3Periodo/AED2-Tarefas/MF-OrdenacaoPesquisa/MF-Tutorial/obj/Debug/net5.0/MF-Tutorial.GeneratedMSBuildEditorConfig.editorconfig
+/home/lucasduarte/PUC-AED2/3Periodo/AED2-Tarefas/MF-OrdenacaoPesquisa/MF-Tutorial/obj/Debug/net5.0/MF-Tutorial.AssemblyInfoInputs.cache
+/home/lucasduarte/PUC-AED2/3Periodo/AED2-Tarefas/MF-OrdenacaoPesquisa/MF-Tutorial/obj/Debug/net5.0/MF-Tutorial.AssemblyInfo.cs
+/home/lucasduarte/PUC-AED2/3Periodo/AED2-Tarefas/MF-OrdenacaoPesquisa/MF-Tutorial/obj/Debug/net5.0/MF-Tutorial.csproj.CoreCompileInputs.cache
+/home/lucasduarte/PUC-AED2/3Periodo/AED2-Tarefas/MF-OrdenacaoPesquisa/MF-Tutorial/obj/Debug/net5.0/MF-Tutorial.dll
+/home/lucasduarte/PUC-AED2/3Periodo/AED2-Tarefas/MF-OrdenacaoPesquisa/MF-Tutorial/obj/Debug/net5.0/ref/MF-Tutorial.dll
+/home/lucasduarte/PUC-AED2/3Periodo/AED2-Tarefas/MF-OrdenacaoPesquisa/MF-Tutorial/obj/Debug/net5.0/MF-Tutorial.pdb
+/home/lucasduarte/PUC-AED2/3Periodo/AED2-Tarefas/MF-OrdenacaoPesquisa/MF-Tutorial/obj/Debug/net5.0/MF-Tutorial.genruntimeconfig.cache
