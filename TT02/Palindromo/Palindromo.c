@@ -13,7 +13,6 @@ bool isFim(char s[]){
         return (strlen(s)>=3 && s[0]=='F' && s[1]=='I' && s[2]=='M');
 }
 
-
 bool isPalindromo(char s[]){
     //s.length() -> strlen
     int last = strlen(s)-1;

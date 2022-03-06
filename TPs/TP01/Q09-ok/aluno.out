@@ -1,0 +1,240 @@
+entrada -> 321.169 [1]
+entrada -> 389.309 [2]
+entrada -> 460.306 [3]
+entrada -> 8.496 [4]
+entrada -> 177.642 [5]
+entrada -> 608.048 [6]
+entrada -> 588.031 [7]
+entrada -> 962.089 [8]
+entrada -> 858.554 [9]
+entrada -> 8.906 [10]
+entrada -> 545.98 [11]
+entrada -> 246.307 [12]
+entrada -> 264.422 [13]
+entrada -> 863.343 [14]
+entrada -> 24.242 [15]
+entrada -> 506.847 [16]
+entrada -> 101.892 [17]
+entrada -> 431.683 [18]
+entrada -> 114.248 [19]
+entrada -> 694.176 [20]
+entrada -> 317.116 [21]
+entrada -> 574.834 [22]
+entrada -> 402.771 [23]
+entrada -> 946.349 [24]
+entrada -> 416.331 [25]
+entrada -> 711.745 [26]
+entrada -> 48.416 [27]
+entrada -> 897.642 [28]
+entrada -> 17.454 [29]
+entrada -> 351.384 [30]
+entrada -> 349.014 [31]
+entrada -> 324.068 [32]
+entrada -> 150.449 [33]
+entrada -> 836.808 [34]
+entrada -> 517.143 [35]
+entrada -> 504.077 [36]
+entrada -> 238.715 [37]
+entrada -> 782.179 [38]
+entrada -> 960.799 [39]
+entrada -> 353.307 [40]
+entrada -> 323.724 [41]
+entrada -> 835.45 [42]
+entrada -> 918.09 [43]
+entrada -> 474.429 [44]
+entrada -> 355.144 [45]
+entrada -> 712.368 [46]
+entrada -> 221.516 [47]
+entrada -> 988.387 [48]
+entrada -> 384.714 [49]
+entrada -> 692.047 [50]
+entrada -> 435.0 [51]
+entrada -> 19.0 [52]
+entrada -> 259.0 [53]
+entrada -> 361.0 [54]
+entrada -> 797.0 [55]
+entrada -> 744.0 [56]
+entrada -> 122.0 [57]
+entrada -> 820.0 [58]
+entrada -> 89.0 [59]
+entrada -> 841.0 [60]
+entrada -> 0.021 [61]
+entrada -> 0.572 [62]
+entrada -> 0.525 [63]
+entrada -> 0.217 [64]
+entrada -> 0.507 [65]
+entrada -> 0.253 [66]
+entrada -> 0.671 [67]
+entrada -> 0.77 [68]
+entrada -> 0.383 [69]
+entrada -> 0.469 [70]
+entrada -> 0.306 [71]
+entrada -> 0.495 [72]
+entrada -> 0.264 [73]
+entrada -> 0.125 [74]
+entrada -> 0.621 [75]
+entrada -> 0.27 [76]
+entrada -> 0.689 [77]
+entrada -> 0.809 [78]
+entrada -> 0.939 [79]
+entrada -> 0.2 [80]
+iteracaoSeek -> 632
+0.2
+iteracaoSeek -> 624
+0.939
+iteracaoSeek -> 616
+0.809
+iteracaoSeek -> 608
+0.689
+iteracaoSeek -> 600
+0.27
+iteracaoSeek -> 592
+0.621
+iteracaoSeek -> 584
+0.125
+iteracaoSeek -> 576
+0.264
+iteracaoSeek -> 568
+0.495
+iteracaoSeek -> 560
+0.306
+iteracaoSeek -> 552
+0.469
+iteracaoSeek -> 544
+0.383
+iteracaoSeek -> 536
+0.77
+iteracaoSeek -> 528
+0.671
+iteracaoSeek -> 520
+0.253
+iteracaoSeek -> 512
+0.507
+iteracaoSeek -> 504
+0.217
+iteracaoSeek -> 496
+0.525
+iteracaoSeek -> 488
+0.572
+iteracaoSeek -> 480
+0.021
+iteracaoSeek -> 472
+841
+iteracaoSeek -> 464
+89
+iteracaoSeek -> 456
+820
+iteracaoSeek -> 448
+122
+iteracaoSeek -> 440
+744
+iteracaoSeek -> 432
+797
+iteracaoSeek -> 424
+361
+iteracaoSeek -> 416
+259
+iteracaoSeek -> 408
+19
+iteracaoSeek -> 400
+435
+iteracaoSeek -> 392
+692.047
+iteracaoSeek -> 384
+384.714
+iteracaoSeek -> 376
+988.387
+iteracaoSeek -> 368
+221.516
+iteracaoSeek -> 360
+712.368
+iteracaoSeek -> 352
+355.144
+iteracaoSeek -> 344
+474.429
+iteracaoSeek -> 336
+918.09
+iteracaoSeek -> 328
+835.45
+iteracaoSeek -> 320
+323.724
+iteracaoSeek -> 312
+353.307
+iteracaoSeek -> 304
+960.799
+iteracaoSeek -> 296
+782.179
+iteracaoSeek -> 288
+238.715
+iteracaoSeek -> 280
+504.077
+iteracaoSeek -> 272
+517.143
+iteracaoSeek -> 264
+836.808
+iteracaoSeek -> 256
+150.449
+iteracaoSeek -> 248
+324.068
+iteracaoSeek -> 240
+349.014
+iteracaoSeek -> 232
+351.384
+iteracaoSeek -> 224
+17.454
+iteracaoSeek -> 216
+897.642
+iteracaoSeek -> 208
+48.416
+iteracaoSeek -> 200
+711.745
+iteracaoSeek -> 192
+416.331
+iteracaoSeek -> 184
+946.349
+iteracaoSeek -> 176
+402.771
+iteracaoSeek -> 168
+574.834
+iteracaoSeek -> 160
+317.116
+iteracaoSeek -> 152
+694.176
+iteracaoSeek -> 144
+114.248
+iteracaoSeek -> 136
+431.683
+iteracaoSeek -> 128
+101.892
+iteracaoSeek -> 120
+506.847
+iteracaoSeek -> 112
+24.242
+iteracaoSeek -> 104
+863.343
+iteracaoSeek -> 96
+264.422
+iteracaoSeek -> 88
+246.307
+iteracaoSeek -> 80
+545.98
+iteracaoSeek -> 72
+8.906
+iteracaoSeek -> 64
+858.554
+iteracaoSeek -> 56
+962.089
+iteracaoSeek -> 48
+588.031
+iteracaoSeek -> 40
+608.048
+iteracaoSeek -> 32
+177.642
+iteracaoSeek -> 24
+8.496
+iteracaoSeek -> 16
+460.306
+iteracaoSeek -> 8
+389.309
+iteracaoSeek -> 0
+321.169

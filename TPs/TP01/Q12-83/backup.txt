@@ -1,0 +1,66 @@
+/**
+Refaça em C a questão anterior.
+*/
+#include <stdio.h>
+#include <string.h>
+#include <stdbool.h>
+
+#define NUMLINHA    1000
+#define TAMPALAVRA  1000
+
+
+
+/**
+*   Encontrar fim
+*   @param  String a testar
+*   @return true -> fim     encontrado
+*           false-> fim nao encontrado
+*/
+bool isFim (char s[]){
+    return (strlen(s)>=3 && s[0]=='F' && s[1]=='I' && s[2]=='M');
+}
+
+/**
+*   Testa se Palindromo
+*   @param  s       -  string a testar
+*   @param  start   -  primeira posicao
+*   @param  last    -  ultima posicao
+*   @return true    - se     for palindromo
+*           false   - se nao for palindromo
+*/
+bool isPalindromo (char s[], int start, int last){
+    //se fim da string
+    int lastAtual = strlen(s);
+    printf("string      -> %c\n"    , *s);
+    printf("start       -> %c[%d]\n", s[start], start);
+    printf("lastAtual   -> %c[%d]\n", s[lastAtual], lastAtual);
+    printf("last        -> %c[%d]\n", s[last], last);
+    if(((lastAtual/2)-1)==last){
+        //fim
+        return true;
+    }
+    if(s[start] == s[last]){
+        return isPalindromo(s, start+1, last-1);
+    }
+    //nao palindromo
+    return false;
+}
+
+/**
+Main
+*/
+int main (){
+    char entrada[NUMLINHA][TAMPALAVRA];
+    int numEntrada=0;
+    //
+    do{
+        scanf("%[^\n]%*c", entrada[numEntrada]);
+        if (isFim(entrada[numEntrada])==false){
+            if (isPalindromo(entrada[numEntrada], 0, strlen(entrada[numEntrada])-1)==true)
+                printf("SIM\n");
+            else
+                printf("NAO\n");
+        }
+    } while (isFim(entrada[numEntrada++])==false);
+    numEntrada--;
+}

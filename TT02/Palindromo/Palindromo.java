@@ -44,7 +44,6 @@ class Palindromo{
         //Variaveis de entrada
         String[] entrada = new String[1000];
         int numEntrada=0;
-
         //Leitura da entrada padrao
         // do while not FIM
         do {
