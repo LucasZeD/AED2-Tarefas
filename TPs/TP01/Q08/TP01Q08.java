@@ -8,7 +8,9 @@ public class TP01Q08 {
     String linha = MyIO.readLine();
     String nome = "", html = "";
     // contadores de cada vogal, consoantes e cada tag
-    int contVog[] = new int[27], contCons = 0, contTag[] = new int[2];
+    int contVog[] = new int[27],
+    contCons = 0,
+    contTag[] = new int[2];
     int[] vogais = {
       97, // a
       101, // e

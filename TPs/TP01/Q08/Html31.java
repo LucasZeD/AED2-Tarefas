@@ -32,7 +32,7 @@ import java.net.*;
 import javax.imageio.stream.MemoryCacheImageInputStream;
 
 
-public class Html {
+public class Html31 {
     /**
     Encontrar fim
     @param  String a testar
@@ -82,10 +82,10 @@ public class Html {
     public static int isVowel(char s, int vowels[]){
         for(int i=0; i<vowels.length-1; i++){
             if(s == vowels[i]){
-                return i;
+                return 1;
             }
         }
-        return -1;
+        return 0;
     }
     /**
     IsConsoante -> Only Consonate
@@ -102,21 +102,20 @@ public class Html {
         }
     }
     /**
-    isTag -> <br> <table>
+    isBr -> <br>
     @param s -> html a ser lido
     @param iteracao -> s[i]
-    @return 1 -> br; 0 -> tab; -1 -> nenhum
+    @return true -> encontrado br
     */
-    public static int isTag (String s, int i){
-        i = i-1;
+    public static int isTag (String s, int iteracao){
         //'<' 'b' 'r' '>'
-        if (s.charAt(i) == '<') {
-            if (s.charAt(i + 1) == 't') {
-                if (s.charAt(i + 2) == 'a') {
-                    if (s.charAt(i + 3) == 'b') {
-                        if (s.charAt(i + 4) == 'l') {
-                            if (s.charAt(i + 5) == 'e') {
-                                if (s.charAt(i + 6) == '>') {
+        if (s.charAt(iteracao) == '<') {
+            if (s.charAt(iteracao + 1) == 't') {
+                if (s.charAt(iteracao + 2) == 'a') {
+                    if (s.charAt(iteracao + 3) == 'b') {
+                        if (s.charAt(iteracao + 4) == 'l') {
+                            if (s.charAt(iteracao + 5) == 'e') {
+                                if (s.charAt(iteracao + 6) == '>') {
                                     return 0;
                                 }
                             }
@@ -125,10 +124,12 @@ public class Html {
                 }
             }
         }
-        else if(s.charAt(i + 1)== 'b'){
-            if(s.charAt(i + 2)== 'r'){
-                if(s.charAt(i + 3)== '>'){
-                    return 1;
+        else{
+            if(s.charAt(iteracao+1)== 'b'){
+                if(s.charAt(iteracao+2)== 'r'){
+                    if(s.charAt(iteracao+3)== '>'){
+                        return 1;
+                    }
                 }
             }
         }
@@ -145,7 +146,7 @@ public class Html {
     public static void Saida(int vowels[], int numVowels[] ,int numConsoante, int numTag[], String nome) {
         //
         for (int i = 0; i < 22; i++) {
-            MyIO.print((char)(vowels[i]) + "(" + (numVowels[i]) + ") ");
+            MyIO.print((char)(vowels[i]) + "(" + numVowels[i] + ") ");
         }
         //
         MyIO.print("consoante(" + numConsoante + ") ");
@@ -160,7 +161,7 @@ public class Html {
     */
     public static void main(String[] args) {
         //charset
-        MyIO.setCharset("ISO-8859-1");
+        MyIO.setCharset("UTF-8");
         /**
         Variveis para execucao
         */
@@ -169,58 +170,52 @@ public class Html {
         int numTag[]    = new int [2];
         int numConsoante= 0;
         /**
-        Leitura Padrao
-        */
-        String linha= MyIO.readLine();
-        /**
         Variaveis para html
         */
         String endereco = "";
+        String html = "";
+        /**
+        Variaveis
+        Leitura Padrao
+        */
+        String linha= MyIO.readLine();
         String nome = "";
         do{
             if (isFim(linha)==false){
-                /**
-                ZERAR VALORES PARA PROXIMA PAGINA
-                */
+                // ZERAR VALORES PARA PROXIMA PAGINA
                 numConsoante=0;
                 for(int i=0; i<27; i++)
                     { numVowels[i]=0; }
                 for(int i=0; i<2; i++)
                     { numTag[i]=0;}
-                /**
-                LEITURA INICIAL + GET HTML
-                */
-                nome =linha;                   //nome site
+                // LEITURA INICIAL + GET HTML
+                nome = linha;                   //nome site
                 linha=MyIO.readLine();         //segunda linha html
+                //testing purpose
+                //MyIO.println(linha);
                 endereco = getHtml(linha);   //get
-                /**
-                LEITURA HTML
-                */
-                for(int i=0; i<endereco.length();i++){
-                    /**
-                    TESTES
-                    */
-                    int respTemp = isVowel(endereco.charAt(i), vowels);
+                //LEITURA HTML
+                for(int i=0; i<html.length();i++){
+                    int respTemp = isVowel(html.charAt(i), vowels);
                     //se igual a 1 vogal
-                    if(respTemp >= 0){
+                    if(respTemp == 1){
                         numVowels[respTemp]++;
                     }
                     else{
                         //consoante
-                        if((isConsoante(endereco.charAt(i)))==true){
+                        if((isConsoante(html.charAt(i)))==true){
                             numConsoante++;
                         }
                         else{
-                            if(i>0){
-                                respTemp = isTag(endereco, i);
-                                if(respTemp>=0){
+                            respTemp=isTag(html, i);
+                            //br
+                            if(respTemp>=0){
+                                i=i+3;
+                                //table
+                                if(respTemp==0){
                                     i=i+3;
-                                    //table
-                                    if(respTemp==0){
-                                        i=i+3;
-                                    }
-                                    numTag[respTemp]++;
                                 }
+                                
                             }
                         }
                     }
