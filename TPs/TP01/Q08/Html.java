@@ -163,7 +163,7 @@ public class Html {
         MyIO.setCharset("ISO-8859-1");
         /**
         Variveis para execucao
-        */
+        */ 
         int[] vowels    = {97,101,105,111,117,225,233,237,243,250,224,232,236,242,249,227,245,226,234,238,244,251,65,69,73,79,85};
         int numVowels[] = new int[27];
         int numTag[]    = new int [2];
